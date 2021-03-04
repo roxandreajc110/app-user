@@ -42,7 +42,7 @@ Este proyecto se ejecuta por el puerto 8080 , si se requiere ejecutar desde otro
 ### Ejecución por IDE
 
 1. Descargar el repositorio del proyecto de la rama "**master***"  e importarlo en el IDE.
-2. Ejecutar el main de la aplicación para este caso: 		    	    **com.valid.app.user***
+2. Ejecutar el main de la aplicación para este caso: 		    	    ***com.valid.app.user***
 
 ## Documentación API REST
 
@@ -53,7 +53,7 @@ Para este caso en AWS es:<br>
 
 ## Consumo de servicios
 
-Para mayor practicidad se envia colección de Postman (***\src\main\resources\Services.postman_collection***) con ejemplos de consumos sobre los servicios expuestos.
+Para mayor practicidad se envia colección de Postman (***\src\main\resources\Valid.postman_collection***) con ejemplos de consumos sobre los servicios expuestos.
 
 ## Autor
 Roxana A. Jaramillo Cobos<br>
