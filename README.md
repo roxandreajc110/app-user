@@ -65,7 +65,7 @@ Usamos un "mediador" entre el dominio de la aplicación y los datos que le dan p
 
 Se realiza la documentación usando **Swagger**, para ello se debe ir a la ruta:<br>
 ***PROTOCOLO://IP:PUERTO//swagger-ui.html***<br>
-Para este caso en AWS es:<br>
+Para este caso es:<br>
 ***http://localhost:8080/swagger-ui.html***
 
 ## Consumo de servicios
