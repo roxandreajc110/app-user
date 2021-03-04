@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Servicios REST en Spring para creación, listado y procesado de usuarios según los requerimientos.
+Servicios REST en Spring para creación, listado y procesado de usuarios según los requerimientos. Se realiza la implementación de la interfaz de usuario por separado en el proyecto: https://github.com/roxandreajc110/register-valid-ui
 
 ## Tecnologías/Herramientas usadas
 
@@ -51,13 +51,13 @@ Se maneja un estilo arquitectónico REST, donde la implementación del cliente y
 
 ## Patrones
 
-  - Data Transfer Object (DTO)
+  ***- Data Transfer Object (DTO):*** 
 Se maneja este patrón para el transporte de la información de los servicios a la respuesta final del usuario;Con ello se busca manejar buenas prácticas en cuanto a que las entidades solamente sean clases que representa al modelo de datos y los DTO puede contener información de múltiples fuentes o tablas y concentrarlas en una única clase simple.
 
-  - Converter
+  ***- Converter:*** 
 Nos permite encapsular la lógica de conversión de dos tipos de datos de forma bidireccional (DTO y Entity), con el objetivo de evitar repetir conversiones de tipos de datos en   varias partes del programa delegando esta responsabilidad a una clase externa. La necesidad se presenta en la capa de negocio, donde tenemos que manejar un tipo de dato amigable para el cliente/navegador pero en el lógica/persistencia necesitamos otros tipos de datos.
 
-  - Repository
+  ***- Repository:*** 
 Usamos un "mediador" entre el dominio de la aplicación y los datos que le dan persistencia.
 
 
