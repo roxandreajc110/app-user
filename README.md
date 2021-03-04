@@ -32,7 +32,7 @@ Este proyecto se ejecuta por el puerto 8080 , si se requiere ejecutar desde otro
 
 ### Generación ejecutable .jar
 
-1.  Descargar el repositorio del proyecto de la rama "**master***".
+1.  Descargar el repositorio del proyecto de la rama "***master***".
 2.  Mediante el IDE Eclipse, click derecho sobre el proyecto, seleccionamos la opción “***run as***” y luego “***maven build***”, en la ventana que nos arroja llamada “***Edit Configuration***” escribimos “***package***” en el campo de “***Goals***” y damos Click en "***Run***".
 3. El punto anterior también puede realizarse mediante linea de comando ejecutando: *"**mvn package**" sobre el proyecto. Tener en cuenta tener instalado maven.*
 4.  Después de que se terminé de construir nuestro proyecto se generará automáticamente un **.jar**. (Este .jar podremos encontrarlo en la ruta del proyecto en la carpeta ***/target***)
