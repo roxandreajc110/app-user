@@ -37,11 +37,11 @@ Este proyecto se ejecuta por el puerto 8080 , si se requiere ejecutar desde otro
 3. El punto anterior también puede realizarse mediante linea de comando ejecutando: *"**mvn package**" sobre el proyecto. Tener en cuenta tener instalado maven.*
 4.  Después de que se terminé de construir nuestro proyecto se generará automáticamente un **.jar**. (Este .jar podremos encontrarlo en la ruta del proyecto en la carpeta ***/target***)
 5. Para ejecutar el .jar, se realiza mediante el comando : 
-	**java -jar app-user-0.0.1.jar****
+	***java -jar app-user-0.0.1.jar****
 	
 ### Ejecución por IDE
 
-1. Descargar el repositorio del proyecto de la rama "**master***"  e importarlo en el IDE.
+1. Descargar el repositorio del proyecto de la rama "***master***"  e importarlo en el IDE.
 2. Ejecutar el main de la aplicación para este caso: 		    	    ***com.valid.app.user***
 
 ## Documentación API REST
