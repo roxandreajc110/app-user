@@ -1,4 +1,4 @@
-# API REST Sistema de usuarios !
+# API REST Sistema de usuarios
 
 ## Objetivo
 
